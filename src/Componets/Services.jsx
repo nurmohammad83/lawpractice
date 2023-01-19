@@ -6,7 +6,7 @@ const Services = () => {
         <div>
 <div className="text center pb-16">
           <p className="text-center text-2xl font-semibold text-green-500">Services</p>
-        <h2 className="text-5xl font-semibold text-center">Our Services</h2>
+        <h2 className="text-5xl font-semibold text-black text-center">Our Services</h2>
           </div>
         <div className='grid grid-cols-1 sm:grid-cols-2 justify-center items-center md:grid-cols-3 gap-5'>
        {

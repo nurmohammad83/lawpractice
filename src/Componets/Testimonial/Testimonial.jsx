@@ -26,7 +26,7 @@ const Testimonial = () => {
         <p className="text-center text-2xl font-semibold text-green-500">
           Testimonial
         </p>
-        <h2 className="text-5xl font-semibold text-center">
+        <h2 className="text-5xl text-black font-semibold text-center">
           Meet Client Satisfaction
         </h2>
       </div>

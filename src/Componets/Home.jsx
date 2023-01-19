@@ -2,7 +2,7 @@ import Bennar from "../Componets/Bennar";
 import Services from "../Componets/Services"
 import Choose from "../Componets/Choose"
 import Testimonial from "../Componets/Testimonial/Testimonial"
-
+import testimonialimg from "../assets/faram.jpg"
 import styles from "../style";
 import History from "./History";
 import Contact from "./Contact";
@@ -37,6 +37,7 @@ const Home = () => {
       </div>
 
       <div
+       style={{background:`url(${testimonialimg})`,backgroundRepeat:'no-repeat',backgroundSize:'cover',}}
         className={`${styles.paddingX} ${styles.paddingY} ${styles.flexStart}`}
       >
         <div className={`${styles.boxWidth} `}>
